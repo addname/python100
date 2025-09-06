@@ -1,0 +1,115 @@
+site_name: Python 100问 - 从入门到精通
+site_description: 基于Python 3的完整学习指南，通过100个核心问题带你掌握Python编程
+site_author: 夏光
+site_url: https://python100.example.com
+
+nav:
+  - 首页: index.md
+  - 关于本书: about.md
+  - 本书结构: structure.md
+  - 第一章：入门与基础:
+    - 1. 环境搭建与配置: chapter1_basics/1_environment.md
+    - 2. Python基础语法: chapter1_basics/2_syntax.md
+  - 第二章：数据结构与类型:
+    - 1. 列表详解: chapter2_data_structures/1_lists.md
+  - 第三章：函数与模块:
+    - 1. 函数定义与调用: chapter3_functions/1_functions.md
+  - 第四章：面向对象编程:
+    - 1. 类与对象基础: chapter4_oop/1_classes.md
+  - 第五章：标准库应用:
+    - 1. 系统与文件操作: chapter5_stdlib/1_system_files.md
+  - 第六章：Web开发:
+    - 1. Flask入门: chapter6_web/1_flask_basics.md
+  - 第七章：数据科学:
+    - 1. NumPy基础: chapter7_datascience/1_numpy.md
+  - 附录:
+    - 常用资源: appendix/resources.md
+
+theme:
+  name: "material"
+  logo: assets/homepage_banner.svg
+  favicon: assets/homepage_banner.svg
+  palette:
+    # 支持明暗主题切换
+    - scheme: default
+      primary: "blue"
+      accent: "orange"
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗黑模式
+    - scheme: slate
+      primary: "blue"
+      accent: "orange"
+      toggle:
+        icon: material/brightness-4
+        name: 切换到明亮模式
+  language: "zh"
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.integrate
+    - toc.follow
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      title: 本页目录
+      anchorlink: true
+      permalink: true
+  - tables
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search:
+      lang: zh
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: datetime
+      timezone: Asia/Shanghai
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xiaguang/python100
+    - icon: fontawesome/brands/python
+      link: https://www.python.org/
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/questions/tagged/python
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  version:
+    provider: mike
+
+copyright: Copyright &copy; 2024 夏光. 本书基于 Python 3.x 编写，参考 <a href="https://www.python.org/doc/">Python官方文档</a>.
