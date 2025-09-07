@@ -43,7 +43,6 @@ nav:
     - NumPy基础: chapter8_datascience/1_numpy.md
     - Pandas数据处理: chapter8_datascience/2_pandas.md
     - Matplotlib数据可视化: chapter8_datascience/3_matplotlib.md
-  - 问题索引: questions_index.md
   - 附录:
     - 常用资源: appendix/resources.md
 
