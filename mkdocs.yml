@@ -72,7 +72,6 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.path
-    - navigation.top
     - navigation.indexes
     - search.highlight
     - search.share
