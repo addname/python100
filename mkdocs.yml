@@ -7,35 +7,44 @@ nav:
   - 首页: index.md
   - 关于本书: about.md
   - 本书结构: structure.md
-  - 环境搭建与pip使用: chapter1_basics/1_environment.md
-  - 基本语法、注释与变量: chapter1_basics/2_syntax.md
-  - 基本数据类型: chapter1_basics/3_data_types.md
-  - 常用操作符: chapter1_basics/4_operators.md
-  - 列表(List)的操作: chapter2_data_structures/1_lists.md
-  - 元组(Tuple)的特点与使用: chapter2_data_structures/2_tuples.md
-  - 字典(Dictionary)的操作: chapter2_data_structures/3_dictionaries.md
-  - 集合(Set)的特点与使用: chapter2_data_structures/4_sets.md
-  - 条件判断: chapter3_control_flow/1_conditionals.md
-  - for循环与while循环: chapter3_control_flow/2_loops.md
-  - break、continue与pass: chapter3_control_flow/3_loop_control.md
-  - 函数的定义与调用: chapter4_functions/1_function_basics.md
-  - 参数传递: chapter4_functions/2_parameters.md
-  - 作用域: chapter4_functions/3_scope.md
-  - 模块的导入与使用: chapter4_functions/4_modules.md
-  - 类与对象的概念: chapter5_oop/1_classes_objects.md
-  - 继承与多态: chapter5_oop/2_inheritance_polymorphism.md
-  - 封装与访问控制: chapter5_oop/3_encapsulation.md
-  - 文件读写操作: chapter6_stdlib/1_file_operations.md
-  - os与sys模块: chapter6_stdlib/2_os_sys.md
-  - datetime模块: chapter6_stdlib/3_datetime.md
-  - json模块: chapter6_stdlib/4_json.md
-  - Flask基础: chapter7_web/1_flask_basics.md
-  - 路由与视图函数: chapter7_web/2_routes_views.md
-  - 请求与响应: chapter7_web/3_request_response.md
-  - NumPy基础: chapter8_datascience/1_numpy.md
-  - Pandas数据处理: chapter8_datascience/2_pandas.md
-  - Matplotlib数据可视化: chapter8_datascience/3_matplotlib.md
-  - 常用资源: appendix/resources.md
+  - 第一章：Python基础:
+    - 环境搭建与pip使用: chapter1_basics/1_environment.md
+    - 基本语法、注释与变量: chapter1_basics/2_syntax.md
+    - 基本数据类型: chapter1_basics/3_data_types.md
+    - 常用操作符: chapter1_basics/4_operators.md
+  - 第二章：数据结构:
+    - 列表(List)的操作: chapter2_data_structures/1_lists.md
+    - 元组(Tuple)的特点与使用: chapter2_data_structures/2_tuples.md
+    - 字典(Dictionary)的操作: chapter2_data_structures/3_dictionaries.md
+    - 集合(Set)的特点与使用: chapter2_data_structures/4_sets.md
+  - 第三章：流程控制:
+    - 条件判断: chapter3_control_flow/1_conditionals.md
+    - for循环与while循环: chapter3_control_flow/2_loops.md
+    - break、continue与pass: chapter3_control_flow/3_loop_control.md
+  - 第四章：函数与模块:
+    - 函数的定义与调用: chapter4_functions/1_function_basics.md
+    - 参数传递: chapter4_functions/2_parameters.md
+    - 作用域: chapter4_functions/3_scope.md
+    - 模块的导入与使用: chapter4_functions/4_modules.md
+  - 第五章：面向对象编程:
+    - 类与对象的概念: chapter5_oop/1_classes_objects.md
+    - 继承与多态: chapter5_oop/2_inheritance_polymorphism.md
+    - 封装与访问控制: chapter5_oop/3_encapsulation.md
+  - 第六章：标准库与文件操作:
+    - 文件读写操作: chapter6_stdlib/1_file_operations.md
+    - os与sys模块: chapter6_stdlib/2_os_sys.md
+    - datetime模块: chapter6_stdlib/3_datetime.md
+    - json模块: chapter6_stdlib/4_json.md
+  - 第七章：Web开发入门:
+    - Flask基础: chapter7_web/1_flask_basics.md
+    - 路由与视图函数: chapter7_web/2_routes_views.md
+    - 请求与响应: chapter7_web/3_request_response.md
+  - 第八章：数据科学入门:
+    - NumPy基础: chapter8_datascience/1_numpy.md
+    - Pandas数据处理: chapter8_datascience/2_pandas.md
+    - Matplotlib数据可视化: chapter8_datascience/3_matplotlib.md
+  - 附录:
+    - 常用资源: appendix/resources.md
 
 theme:
   name: "material"
@@ -45,6 +54,19 @@ theme:
     primary: "blue"
     accent: "orange"
   language: "zh"
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.integrate
+    - toc.follow
 
 markdown_extensions:
   - pymdownx.highlight:
