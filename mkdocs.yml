@@ -8,15 +8,39 @@ nav:
   - 关于本书: about.md
   - 本书结构: structure.md
   - 第一章：Python基础:
-    - 环境搭建与pip使用: chapter1_basics/1_environment.md
-    - 基本语法、注释与变量: chapter1_basics/2_syntax.md
-    - 基本数据类型: chapter1_basics/3_data_types.md
-    - 常用操作符: chapter1_basics/4_operators.md
+    - 环境搭建与pip使用:
+      - 问题1：如何安装Python？: chapter1_basics/1_environment.md
+      - 问题2：如何配置pip？: chapter1_basics/1_environment.md#pip配置
+      - 问题3：如何管理虚拟环境？: chapter1_basics/1_environment.md#虚拟环境
+    - 基本语法、注释与变量:
+      - 问题4：Python的基本语法规则？: chapter1_basics/2_syntax.md
+      - 问题5：如何写注释？: chapter1_basics/2_syntax.md#注释
+      - 问题6：变量命名规则？: chapter1_basics/2_syntax.md#变量
+    - 基本数据类型:
+      - 问题7：Python有哪些基本数据类型？: chapter1_basics/3_data_types.md
+      - 问题8：字符串如何操作？: chapter1_basics/3_data_types.md#字符串
+      - 问题9：数字类型有哪些？: chapter1_basics/3_data_types.md#数字
+    - 常用操作符:
+      - 问题10：算术操作符有哪些？: chapter1_basics/4_operators.md
+      - 问题11：比较操作符如何使用？: chapter1_basics/4_operators.md#比较
+      - 问题12：逻辑操作符的作用？: chapter1_basics/4_operators.md#逻辑
   - 第二章：数据结构:
-    - 列表(List)的操作: chapter2_data_structures/1_lists.md
-    - 元组(Tuple)的特点与使用: chapter2_data_structures/2_tuples.md
-    - 字典(Dictionary)的操作: chapter2_data_structures/3_dictionaries.md
-    - 集合(Set)的特点与使用: chapter2_data_structures/4_sets.md
+    - 列表(List)的操作:
+      - 问题13：如何创建和访问列表？: chapter2_data_structures/1_lists.md
+      - 问题14：列表的增删改查？: chapter2_data_structures/1_lists.md#增删改查
+      - 问题15：列表的排序和切片？: chapter2_data_structures/1_lists.md#排序切片
+    - 元组(Tuple)的特点与使用:
+      - 问题16：元组和列表的区别？: chapter2_data_structures/2_tuples.md
+      - 问题17：如何创建和使用元组？: chapter2_data_structures/2_tuples.md#创建使用
+      - 问题18：元组的应用场景？: chapter2_data_structures/2_tuples.md#应用场景
+    - 字典(Dictionary)的操作:
+      - 问题19：如何创建和访问字典？: chapter2_data_structures/3_dictionaries.md
+      - 问题20：字典的增删改查？: chapter2_data_structures/3_dictionaries.md#增删改查
+      - 问题21：字典的遍历方法？: chapter2_data_structures/3_dictionaries.md#遍历
+    - 集合(Set)的特点与使用:
+      - 问题22：集合的特点和用途？: chapter2_data_structures/4_sets.md
+      - 问题23：集合的运算操作？: chapter2_data_structures/4_sets.md#运算
+      - 问题24：如何创建和操作集合？: chapter2_data_structures/4_sets.md#操作
   - 第三章：流程控制:
     - 条件判断: chapter3_control_flow/1_conditionals.md
     - for循环与while循环: chapter3_control_flow/2_loops.md
