@@ -8,125 +8,41 @@ nav:
   - 关于本书: about.md
   - 本书结构: structure.md
   - 第一章：Python基础:
-    - 环境搭建与pip使用:
-      - 问题1：如何安装Python？: chapter1_basics/1_environment.md
-      - 问题2：如何配置pip？: chapter1_basics/1_environment.md#pip配置
-      - 问题3：如何管理虚拟环境？: chapter1_basics/1_environment.md#虚拟环境
-    - 基本语法、注释与变量:
-      - 问题4：Python的基本语法规则？: chapter1_basics/2_syntax.md
-      - 问题5：如何写注释？: chapter1_basics/2_syntax.md#问题5python中的注释和文档字符串如何使用
-      - 问题6：变量命名规则？: chapter1_basics/2_syntax.md#问题6python中的标识符命名规则是什么
-    - 基本数据类型:
-      - 问题7：Python有哪些基本数据类型？: chapter1_basics/3_data_types.md
-      - 问题8：字符串如何操作？: chapter1_basics/3_data_types.md#字符串
-      - 问题9：数字类型有哪些？: chapter1_basics/3_data_types.md#数字
-    - 常用操作符:
-      - 问题10：算术操作符有哪些？: chapter1_basics/4_operators.md
-      - 问题11：比较操作符如何使用？: chapter1_basics/4_operators.md#比较
-      - 问题12：逻辑操作符的作用？: chapter1_basics/4_operators.md#逻辑
+    - 环境搭建与pip使用: chapter1_basics/1_environment.md
+    - 基本语法、注释与变量: chapter1_basics/2_syntax.md
+    - 基本数据类型: chapter1_basics/3_data_types.md
+    - 常用操作符: chapter1_basics/4_operators.md
   - 第二章：数据结构:
-    - 列表(List)的操作:
-      - 问题13：如何创建和访问列表？: chapter2_data_structures/1_lists.md
-      - 问题14：列表的增删改查？: chapter2_data_structures/1_lists.md#增删改查
-      - 问题15：列表的排序和切片？: chapter2_data_structures/1_lists.md#排序切片
-    - 元组(Tuple)的特点与使用:
-      - 问题16：元组和列表的区别？: chapter2_data_structures/2_tuples.md
-      - 问题17：如何创建和使用元组？: chapter2_data_structures/2_tuples.md#创建使用
-      - 问题18：元组的应用场景？: chapter2_data_structures/2_tuples.md#应用场景
-    - 字典(Dictionary)的操作:
-      - 问题19：如何创建和访问字典？: chapter2_data_structures/3_dictionaries.md
-      - 问题20：字典的增删改查？: chapter2_data_structures/3_dictionaries.md#增删改查
-      - 问题21：字典的遍历方法？: chapter2_data_structures/3_dictionaries.md#遍历
-    - 集合(Set)的特点与使用:
-      - 问题22：集合的特点和用途？: chapter2_data_structures/4_sets.md
-      - 问题23：集合的运算操作？: chapter2_data_structures/4_sets.md#运算
-      - 问题24：如何创建和操作集合？: chapter2_data_structures/4_sets.md#操作
+    - 列表(List)的操作: chapter2_data_structures/1_lists.md
+    - 元组(Tuple)的特点与使用: chapter2_data_structures/2_tuples.md
+    - 字典(Dictionary)的操作: chapter2_data_structures/3_dictionaries.md
+    - 集合(Set)的特点与使用: chapter2_data_structures/4_sets.md
   - 第三章：流程控制:
-    - 条件判断:
-      - 问题25：if语句如何使用？: chapter3_control_flow/1_conditionals.md
-      - 问题26：elif和else的作用？: chapter3_control_flow/1_conditionals.md#elif-else
-      - 问题27：条件表达式的写法？: chapter3_control_flow/1_conditionals.md#条件表达式
-    - for循环与while循环:
-      - 问题28：for循环的基本用法？: chapter3_control_flow/2_loops.md
-      - 问题29：while循环的使用场景？: chapter3_control_flow/2_loops.md#while循环
-      - 问题30：range()函数的作用？: chapter3_control_flow/2_loops.md#range函数
-    - break、continue与pass:
-      - 问题31：break语句的作用？: chapter3_control_flow/3_loop_control.md
-      - 问题32：continue语句的作用？: chapter3_control_flow/3_loop_control.md#continue
-      - 问题33：pass语句的用途？: chapter3_control_flow/3_loop_control.md#pass
+    - 条件判断: chapter3_control_flow/1_conditionals.md
+    - for循环与while循环: chapter3_control_flow/2_loops.md
+    - break、continue与pass: chapter3_control_flow/3_loop_control.md
   - 第四章：函数与模块:
-    - 函数的定义与调用:
-      - 问题34：如何定义函数？: chapter4_functions/1_function_basics.md
-      - 问题35：如何调用函数？: chapter4_functions/1_function_basics.md#调用函数
-      - 问题36：函数的返回值？: chapter4_functions/1_function_basics.md#返回值
-    - 参数传递:
-      - 问题37：位置参数和关键字参数？: chapter4_functions/2_parameters.md
-      - 问题38：默认参数的使用？: chapter4_functions/2_parameters.md#默认参数
-      - 问题39：可变参数*args和**kwargs？: chapter4_functions/2_parameters.md#可变参数
-    - 作用域:
-      - 问题40：局部变量和全局变量？: chapter4_functions/3_scope.md
-      - 问题41：global关键字的作用？: chapter4_functions/3_scope.md#global
-      - 问题42：nonlocal关键字的作用？: chapter4_functions/3_scope.md#nonlocal
-    - 模块的导入与使用:
-      - 问题43：如何导入模块？: chapter4_functions/4_modules.md
-      - 问题44：from...import的用法？: chapter4_functions/4_modules.md#from-import
-      - 问题45：如何创建自定义模块？: chapter4_functions/4_modules.md#自定义模块
+    - 函数的定义与调用: chapter4_functions/1_function_basics.md
+    - 参数传递: chapter4_functions/2_parameters.md
+    - 作用域: chapter4_functions/3_scope.md
+    - 模块的导入与使用: chapter4_functions/4_modules.md
   - 第五章：面向对象编程:
-    - 类与对象的概念:
-      - 问题46：什么是类和对象？: chapter5_oop/1_classes_objects.md
-      - 问题47：如何定义类？: chapter5_oop/1_classes_objects.md#定义类
-      - 问题48：如何创建对象？: chapter5_oop/1_classes_objects.md#创建对象
-    - 继承与多态:
-      - 问题49：什么是继承？: chapter5_oop/2_inheritance_polymorphism.md
-      - 问题50：如何实现继承？: chapter5_oop/2_inheritance_polymorphism.md#实现继承
-      - 问题51：什么是多态？: chapter5_oop/2_inheritance_polymorphism.md#多态
-    - 封装与访问控制:
-      - 问题52：什么是封装？: chapter5_oop/3_encapsulation.md
-      - 问题53：私有属性和方法？: chapter5_oop/3_encapsulation.md#私有属性
-      - 问题54：属性装饰器@property？: chapter5_oop/3_encapsulation.md#property
+    - 类与对象的概念: chapter5_oop/1_classes_objects.md
+    - 继承与多态: chapter5_oop/2_inheritance_polymorphism.md
+    - 封装与访问控制: chapter5_oop/3_encapsulation.md
   - 第六章：标准库与文件操作:
-    - 文件读写操作:
-      - 问题55：如何打开和关闭文件？: chapter6_stdlib/1_file_operations.md
-      - 问题56：如何读取文件内容？: chapter6_stdlib/1_file_operations.md#读取文件
-      - 问题57：如何写入文件？: chapter6_stdlib/1_file_operations.md#写入文件
-    - os与sys模块:
-      - 问题58：os模块的常用功能？: chapter6_stdlib/2_os_sys.md
-      - 问题59：sys模块的作用？: chapter6_stdlib/2_os_sys.md#sys模块
-      - 问题60：路径操作的方法？: chapter6_stdlib/2_os_sys.md#路径操作
-    - datetime模块:
-      - 问题61：如何获取当前时间？: chapter6_stdlib/3_datetime.md
-      - 问题62：如何格式化时间？: chapter6_stdlib/3_datetime.md#格式化时间
-      - 问题63：如何进行时间计算？: chapter6_stdlib/3_datetime.md#时间计算
-    - json模块:
-      - 问题64：什么是JSON？: chapter6_stdlib/4_json.md
-      - 问题65：如何解析JSON？: chapter6_stdlib/4_json.md#解析json
-      - 问题66：如何生成JSON？: chapter6_stdlib/4_json.md#生成json
+    - 文件读写操作: chapter6_stdlib/1_file_operations.md
+    - os与sys模块: chapter6_stdlib/2_os_sys.md
+    - datetime模块: chapter6_stdlib/3_datetime.md
+    - json模块: chapter6_stdlib/4_json.md
   - 第七章：Web开发入门:
-    - Flask基础:
-      - 问题67：什么是Flask？: chapter7_web/1_flask_basics.md
-      - 问题68：如何安装Flask？: chapter7_web/1_flask_basics.md#安装flask
-      - 问题69：如何创建Flask应用？: chapter7_web/1_flask_basics.md#创建应用
-    - 路由与视图函数:
-      - 问题70：什么是路由？: chapter7_web/2_routes_views.md
-      - 问题71：如何定义路由？: chapter7_web/2_routes_views.md#定义路由
-      - 问题72：什么是视图函数？: chapter7_web/2_routes_views.md#视图函数
-    - 请求与响应:
-      - 问题73：如何处理HTTP请求？: chapter7_web/3_request_response.md
-      - 问题74：如何返回响应？: chapter7_web/3_request_response.md#返回响应
-      - 问题75：如何处理表单数据？: chapter7_web/3_request_response.md#表单数据
+    - Flask基础: chapter7_web/1_flask_basics.md
+    - 路由与视图函数: chapter7_web/2_routes_views.md
+    - 请求与响应: chapter7_web/3_request_response.md
   - 第八章：数据科学入门:
-    - NumPy基础:
-      - 问题76：什么是NumPy？: chapter8_datascience/1_numpy.md
-      - 问题77：如何创建数组？: chapter8_datascience/1_numpy.md#创建数组
-      - 问题78：数组的基本操作？: chapter8_datascience/1_numpy.md#数组操作
-    - Pandas数据处理:
-      - 问题79：什么是Pandas？: chapter8_datascience/2_pandas.md
-      - 问题80：如何创建DataFrame？: chapter8_datascience/2_pandas.md#创建dataframe
-      - 问题81：如何进行数据筛选？: chapter8_datascience/2_pandas.md#数据筛选
-    - Matplotlib数据可视化:
-      - 问题82：什么是Matplotlib？: chapter8_datascience/3_matplotlib.md
-      - 问题83：如何绘制基本图表？: chapter8_datascience/3_matplotlib.md#基本图表
-      - 问题84：如何自定义图表样式？: chapter8_datascience/3_matplotlib.md#图表样式
+    - NumPy基础: chapter8_datascience/1_numpy.md
+    - Pandas数据处理: chapter8_datascience/2_pandas.md
+    - Matplotlib数据可视化: chapter8_datascience/3_matplotlib.md
   - 附录:
     - 常用资源: appendix/resources.md
 
