@@ -1,6 +1,6 @@
 # Pandas数据处理
 
-## 问题1：什么是Pandas？如何安装Pandas？
+## 问题169：什么是Pandas？如何安装Pandas？
 
 Pandas是Python中用于数据分析和处理的重要库，提供了强大的数据结构和数据分析工具：
 
@@ -24,7 +24,7 @@ df = pd.DataFrame({
 print(df)
 ```
 
-## 问题2：如何创建和操作DataFrame？
+## 问题170：如何创建和操作DataFrame？
 
 ```python
 import pandas as pd
@@ -59,7 +59,7 @@ print(df.info())     # 详细信息
 print(df.describe()) # 统计描述
 ```
 
-## 问题3：如何读取和写入数据？
+## 问题171：如何读取和写入数据？
 
 ```python
 import pandas as pd
@@ -90,7 +90,7 @@ df_tsv = pd.read_csv('data.tsv', sep='\t')
 print(df_tsv.head())
 ```
 
-## 问题4：如何进行数据选择和过滤？
+## 问题172：如何进行数据选择和过滤？
 
 ```python
 import pandas as pd
@@ -125,7 +125,7 @@ print(df.query('年龄 > 30 and 工资 > 10000'))
 print(df[df['城市'].isin(['北京', '上海'])])
 ```
 
-## 问题5：如何进行数据清洗？
+## 问题173：如何进行数据清洗？
 
 ```python
 import pandas as pd
@@ -165,7 +165,7 @@ df['姓名'] = df['姓名'].str.upper()
 print(df)
 ```
 
-## 问题6：如何进行数据分组和聚合？
+## 问题174：如何进行数据分组和聚合？
 
 ```python
 import pandas as pd
@@ -204,7 +204,7 @@ multi_grouped = df.groupby(['部门', '年份'])
 print(multi_grouped['工资'].sum())
 ```
 
-## 问题7：如何进行数据合并和连接？
+## 问题175：如何进行数据合并和连接？
 
 ```python
 import pandas as pd
@@ -252,7 +252,7 @@ horizontal_merge = pd.concat([df1, df2], axis=1)
 print(horizontal_merge)
 ```
 
-## 问题8：如何进行数据透视和重塑？
+## 问题176：如何进行数据透视和重塑？
 
 ```python
 import pandas as pd
@@ -298,7 +298,7 @@ df_transposed = df.set_index(['日期', '产品']).T
 print(df_transposed)
 ```
 
-## 问题9：如何进行时间序列处理？
+## 问题177：如何进行时间序列处理？
 
 ```python
 import pandas as pd
@@ -331,7 +331,7 @@ ts_rolling = ts.rolling(window=3).mean()  # 3天滚动平均
 print(ts_rolling)
 ```
 
-## 问题10：Pandas的实际应用场景
+## 问题178：Pandas的实际应用场景
 
 ```python
 import pandas as pd

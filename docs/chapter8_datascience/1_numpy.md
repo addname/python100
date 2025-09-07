@@ -1,6 +1,6 @@
 # NumPy基础
 
-## 问题1：什么是NumPy？如何安装NumPy？
+## 问题159：什么是NumPy？如何安装NumPy？
 
 NumPy是Python中用于科学计算的基础库，提供了高性能的多维数组对象和工具：
 
@@ -17,7 +17,7 @@ print(arr)  # [1 2 3 4 5]
 print(type(arr))  # <class 'numpy.ndarray'>
 ```
 
-## 问题2：如何创建NumPy数组？
+## 问题160：如何创建NumPy数组？
 
 ```python
 import numpy as np
@@ -52,7 +52,7 @@ matrix = np.array([[1, 2, 3], [4, 5, 6]])
 print(matrix)
 ```
 
-## 问题3：NumPy数组的基本操作有哪些？
+## 问题161：NumPy数组的基本操作有哪些？
 
 ```python
 import numpy as np
@@ -83,7 +83,7 @@ print(arr + 2)      # 每个元素加2: [3 4 5 6 7]
 print(arr * 3)      # 每个元素乘3: [3 6 9 12 15]
 ```
 
-## 问题4：如何处理多维数组？
+## 问题162：如何处理多维数组？
 
 ```python
 import numpy as np
@@ -114,7 +114,7 @@ flattened = reshaped.flatten()
 print(flattened)
 ```
 
-## 问题5：NumPy的数学函数有哪些？
+## 问题163：NumPy的数学函数有哪些？
 
 ```python
 import numpy as np
@@ -146,7 +146,7 @@ print(np.unique(arr))    # 去重
 print(np.concatenate([arr, arr]))  # 连接数组
 ```
 
-## 问题6：如何处理数组的广播？
+## 问题164：如何处理数组的广播？
 
 ```python
 import numpy as np
@@ -172,7 +172,7 @@ print(result)  # [[11 21] [12 22] [13 23]]
 # 从右到左比较维度，如果维度大小相等或其中一个为1，则可以广播
 ```
 
-## 问题7：如何使用NumPy进行线性代数运算？
+## 问题165：如何使用NumPy进行线性代数运算？
 
 ```python
 import numpy as np
@@ -208,7 +208,7 @@ x = np.linalg.solve(A, b)
 print("解:", x)
 ```
 
-## 问题8：如何使用NumPy处理随机数？
+## 问题166：如何使用NumPy处理随机数？
 
 ```python
 import numpy as np
@@ -242,7 +242,7 @@ shuffled = np.random.permutation(arr)
 print(shuffled)
 ```
 
-## 问题9：如何使用NumPy进行数据预处理？
+## 问题167：如何使用NumPy进行数据预处理？
 
 ```python
 import numpy as np
@@ -276,7 +276,7 @@ digitized = np.digitize(data, bins)
 print(digitized)
 ```
 
-## 问题10：NumPy的实际应用场景
+## 问题168：NumPy的实际应用场景
 
 ```python
 import numpy as np

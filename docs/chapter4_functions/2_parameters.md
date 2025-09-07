@@ -46,7 +46,7 @@ result3 = greet("Charlie", 25, "Shanghai")  # Hello Charlie, you are 25 years ol
 
 ---
 
-## 问题39：可变参数*args和**kwargs？
+## 问题101：可变参数*args和**kwargs？
 
 **答：**
 可变参数允许函数接受任意数量的参数：

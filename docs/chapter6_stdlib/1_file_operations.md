@@ -1,6 +1,6 @@
 # 文件读写操作
 
-## 问题1：如何打开和关闭文件？
+## 问题124：如何打开和关闭文件？
 
 ```python
 # 1. 基本文件操作
@@ -22,7 +22,7 @@ with open("example.txt", "r", encoding="utf-8") as file:
 # "t" - 文本模式（默认）
 ```
 
-## 问题2：如何读取文件内容？
+## 问题125：如何读取文件内容？
 
 ```python
 # 1. 读取整个文件
@@ -47,7 +47,7 @@ with open("example.txt", "r", encoding="utf-8") as file:
     print(chunk)
 ```
 
-## 问题3：如何写入文件内容？
+## 问题126：如何写入文件内容？
 
 ```python
 # 1. 写入文本
@@ -70,7 +70,7 @@ with open("output.txt", "w", encoding="utf-8") as file:
     print("这是第二行", file=file)
 ```
 
-## 问题4：如何处理文件异常？
+## 问题127：如何处理文件异常？
 
 ```python
 import os
@@ -115,7 +115,7 @@ def copy_file(source, destination):
         print(f"复制文件时出错: {e}")
 ```
 
-## 问题5：如何处理二进制文件？
+## 问题128：如何处理二进制文件？
 
 ```python
 # 1. 读取二进制文件
@@ -152,7 +152,7 @@ def copy_binary_file(source, destination):
         print(f"复制二进制文件时出错: {e}")
 ```
 
-## 问题6：如何使用pathlib模块处理文件路径？
+## 问题129：如何使用pathlib模块处理文件路径？
 
 ```python
 from pathlib import Path
@@ -192,7 +192,7 @@ def create_directory(dirname):
     print(f"目录创建成功: {dirname}")
 ```
 
-## 问题7：如何处理CSV文件？
+## 问题130：如何处理CSV文件？
 
 ```python
 import csv
@@ -252,7 +252,7 @@ csv_data = [
 write_csv_file("people.csv", csv_data)
 ```
 
-## 问题8：如何处理JSON文件？
+## 问题131：如何处理JSON文件？
 
 ```python
 import json
@@ -303,7 +303,7 @@ def process_json_data():
         print(f"用户数量: {len(loaded_data['users'])}")
 ```
 
-## 问题9：文件操作的最佳实践
+## 问题132：文件操作的最佳实践
 
 ```python
 import os
@@ -379,7 +379,7 @@ def monitor_file_changes(filename):
             break
 ```
 
-## 问题10：文件操作的实际应用
+## 问题133：文件操作的实际应用
 
 ```python
 # 1. 日志文件处理

@@ -1,6 +1,6 @@
 # 类与对象的概念
 
-## 问题1：什么是类和对象？
+## 问题108：什么是类和对象？
 
 类(Class)是创建对象的模板，对象(Object)是类的实例：
 
@@ -23,7 +23,7 @@ print(person1.introduce())  # 我是张三，今年25岁
 print(person2.introduce())  # 我是李四，今年30岁
 ```
 
-## 问题2：如何定义类的属性和方法？
+## 问题109：如何定义类的属性和方法？
 
 ```python
 class Student:
@@ -57,7 +57,7 @@ print(student)  # 学生: 王五, 学号: 2023001
 print(f"平均分: {student.get_average()}")  # 平均分: 88.5
 ```
 
-## 问题3：类的构造函数__init__如何使用？
+## 问题110：类的构造函数__init__如何使用？
 
 ```python
 class Car:
@@ -97,7 +97,7 @@ my_car.drive(50)
 my_car.stop()
 ```
 
-## 问题4：类的属性和方法有哪些类型？
+## 问题111：类的属性和方法有哪些类型？
 
 ```python
 class BankAccount:
@@ -160,7 +160,7 @@ interest = BankAccount.calculate_interest(1000, 0.02, 1)
 print(f"利息: {interest}")
 ```
 
-## 问题5：类的封装是什么？
+## 问题112：类的封装是什么？
 
 ```python
 class BankAccount:
@@ -204,7 +204,7 @@ print(account.get_balance())  # 1500
 # print(account.__balance)  # 错误：AttributeError
 ```
 
-## 问题6：类的继承是什么？
+## 问题113：类的继承是什么？
 
 ```python
 # 父类
@@ -258,7 +258,7 @@ cat.make_sound() # 重写的方法
 cat.climb()      # 子类特有方法
 ```
 
-## 问题7：类的多态是什么？
+## 问题114：类的多态是什么？
 
 ```python
 # 多态示例
@@ -304,7 +304,7 @@ print_shape_info(rectangle)  # 面积: 15.00, 周长: 16.00
 print_shape_info(circle)     # 面积: 50.27, 周长: 25.13
 ```
 
-## 问题8：类的特殊方法有哪些？
+## 问题115：类的特殊方法有哪些？
 
 ```python
 class Book:
@@ -347,7 +347,7 @@ print(book1 < book2)   # False
 print(len(book1))      # 300
 ```
 
-## 问题9：类的实际应用场景有哪些？
+## 问题116：类的实际应用场景有哪些？
 
 ```python
 # 1. 用户管理系统
@@ -412,7 +412,7 @@ class File:
         self.modified_at = "2023-01-02"
 ```
 
-## 问题10：类的最佳实践
+## 问题117：类的最佳实践
 
 ```python
 # 1. 使用属性装饰器

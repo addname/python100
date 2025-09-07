@@ -1,6 +1,6 @@
 # json模块
 
-## 问题64：什么是JSON？
+## 问题140：什么是JSON？
 
 **答：**
 JSON（JavaScript Object Notation）是一种轻量级的数据交换格式：
@@ -28,7 +28,7 @@ json_string = '''
 
 ---
 
-## 问题65：如何解析JSON？
+## 问题141：如何解析JSON？
 
 **答：**
 使用json.loads()解析JSON字符串：
@@ -53,7 +53,7 @@ with open('data.json', 'r') as file:
 
 ---
 
-## 问题66：如何生成JSON？
+## 问题142：如何生成JSON？
 
 **答：**
 使用json.dumps()将Python对象转换为JSON字符串：
