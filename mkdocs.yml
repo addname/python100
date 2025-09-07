@@ -7,68 +7,15 @@ nav:
   - 首页: index.md
   - 关于本书: about.md
   - 本书结构: structure.md
-  - 第一章：Python基础:
-    - 环境搭建与pip使用:
-      - 问题1：如何安装Python？: chapter1_basics/1_environment.md
-      - 问题2：如何配置pip？: chapter1_basics/1_environment.md#pip配置
-      - 问题3：如何管理虚拟环境？: chapter1_basics/1_environment.md#虚拟环境
-    - 基本语法、注释与变量:
-      - 问题4：Python的基本语法规则？: chapter1_basics/2_syntax.md
-      - 问题5：如何写注释？: chapter1_basics/2_syntax.md#注释
-      - 问题6：变量命名规则？: chapter1_basics/2_syntax.md#变量
-    - 基本数据类型:
-      - 问题7：Python有哪些基本数据类型？: chapter1_basics/3_data_types.md
-      - 问题8：字符串如何操作？: chapter1_basics/3_data_types.md#字符串
-      - 问题9：数字类型有哪些？: chapter1_basics/3_data_types.md#数字
-    - 常用操作符:
-      - 问题10：算术操作符有哪些？: chapter1_basics/4_operators.md
-      - 问题11：比较操作符如何使用？: chapter1_basics/4_operators.md#比较
-      - 问题12：逻辑操作符的作用？: chapter1_basics/4_operators.md#逻辑
-  - 第二章：数据结构:
-    - 列表(List)的操作:
-      - 问题13：如何创建和访问列表？: chapter2_data_structures/1_lists.md
-      - 问题14：列表的增删改查？: chapter2_data_structures/1_lists.md#增删改查
-      - 问题15：列表的排序和切片？: chapter2_data_structures/1_lists.md#排序切片
-    - 元组(Tuple)的特点与使用:
-      - 问题16：元组和列表的区别？: chapter2_data_structures/2_tuples.md
-      - 问题17：如何创建和使用元组？: chapter2_data_structures/2_tuples.md#创建使用
-      - 问题18：元组的应用场景？: chapter2_data_structures/2_tuples.md#应用场景
-    - 字典(Dictionary)的操作:
-      - 问题19：如何创建和访问字典？: chapter2_data_structures/3_dictionaries.md
-      - 问题20：字典的增删改查？: chapter2_data_structures/3_dictionaries.md#增删改查
-      - 问题21：字典的遍历方法？: chapter2_data_structures/3_dictionaries.md#遍历
-    - 集合(Set)的特点与使用:
-      - 问题22：集合的特点和用途？: chapter2_data_structures/4_sets.md
-      - 问题23：集合的运算操作？: chapter2_data_structures/4_sets.md#运算
-      - 问题24：如何创建和操作集合？: chapter2_data_structures/4_sets.md#操作
-  - 第三章：流程控制:
-    - 条件判断: chapter3_control_flow/1_conditionals.md
-    - for循环与while循环: chapter3_control_flow/2_loops.md
-    - break、continue与pass: chapter3_control_flow/3_loop_control.md
-  - 第四章：函数与模块:
-    - 函数的定义与调用: chapter4_functions/1_function_basics.md
-    - 参数传递: chapter4_functions/2_parameters.md
-    - 作用域: chapter4_functions/3_scope.md
-    - 模块的导入与使用: chapter4_functions/4_modules.md
-  - 第五章：面向对象编程:
-    - 类与对象的概念: chapter5_oop/1_classes_objects.md
-    - 继承与多态: chapter5_oop/2_inheritance_polymorphism.md
-    - 封装与访问控制: chapter5_oop/3_encapsulation.md
-  - 第六章：标准库与文件操作:
-    - 文件读写操作: chapter6_stdlib/1_file_operations.md
-    - os与sys模块: chapter6_stdlib/2_os_sys.md
-    - datetime模块: chapter6_stdlib/3_datetime.md
-    - json模块: chapter6_stdlib/4_json.md
-  - 第七章：Web开发入门:
-    - Flask基础: chapter7_web/1_flask_basics.md
-    - 路由与视图函数: chapter7_web/2_routes_views.md
-    - 请求与响应: chapter7_web/3_request_response.md
-  - 第八章：数据科学入门:
-    - NumPy基础: chapter8_datascience/1_numpy.md
-    - Pandas数据处理: chapter8_datascience/2_pandas.md
-    - Matplotlib数据可视化: chapter8_datascience/3_matplotlib.md
-  - 附录:
-    - 常用资源: appendix/resources.md
+  - 第一章：Python基础: chapter1_basics.md
+  - 第二章：数据结构: chapter2_data_structures.md
+  - 第三章：流程控制: chapter3_control_flow.md
+  - 第四章：函数与模块: chapter4_functions.md
+  - 第五章：面向对象编程: chapter5_oop.md
+  - 第六章：标准库与文件操作: chapter6_stdlib.md
+  - 第七章：Web开发入门: chapter7_web.md
+  - 第八章：数据科学入门: chapter8_datascience.md
+  - 附录: appendix.md
 
 theme:
   name: "material"
