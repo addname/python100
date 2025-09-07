@@ -1,6 +1,6 @@
 # break、continue与pass
 
-## 问题1：break语句的作用是什么？
+## 问题79：break语句的作用是什么？
 
 `break`语句用于跳出当前循环，继续执行循环后的代码：
 
@@ -20,7 +20,7 @@ while count < 10:
     count += 1  # 0, 1, 2
 ```
 
-## 问题2：continue语句的作用是什么？
+## 问题80：continue语句的作用是什么？
 
 `continue`语句用于跳过当前迭代，继续下一次循环：
 
@@ -39,7 +39,7 @@ for num in numbers:
     print(num)  # 1, 2, 3, 4, 6, 7, 8, 9, 10
 ```
 
-## 问题3：pass语句的作用是什么？
+## 问题81：pass语句的作用是什么？
 
 `pass`语句是空操作，什么都不做，用作占位符：
 
@@ -59,7 +59,7 @@ else:
     print("其他情况")
 ```
 
-## 问题4：循环控制语句的实际应用场景有哪些？
+## 问题82：循环控制语句的实际应用场景有哪些？
 
 ```python
 # 1. 查找第一个满足条件的元素
@@ -104,7 +104,7 @@ def process_files(filenames):
     return results
 ```
 
-## 问题5：嵌套循环中的break和continue如何使用？
+## 问题83：嵌套循环中的break和continue如何使用？
 
 ```python
 # break只跳出内层循环
@@ -135,7 +135,7 @@ def find_target(matrix, target):
     return None
 ```
 
-## 问题6：循环的else子句与break的关系是什么？
+## 问题84：循环的else子句与break的关系是什么？
 
 ```python
 # 如果循环正常结束（没有break），else会执行
@@ -162,7 +162,7 @@ def search_item(items, target):
         print(f"未找到元素 {target}")
 ```
 
-## 问题7：如何避免循环控制语句的常见错误？
+## 问题85：如何避免循环控制语句的常见错误？
 
 ```python
 # 1. 避免在循环中忘记更新变量
@@ -198,7 +198,7 @@ for i in range(10):
     print(i)
 ```
 
-## 问题8：循环控制语句的性能考虑
+## 问题86：循环控制语句的性能考虑
 
 ```python
 # 1. 使用break提前退出循环
@@ -233,7 +233,7 @@ for i in range(10):
         print(i)
 ```
 
-## 问题9：循环控制语句的最佳实践
+## 问题87：循环控制语句的最佳实践
 
 ```python
 # 1. 使用描述性的条件
@@ -276,7 +276,7 @@ def safe_divide(numbers, divisor):
     return results
 ```
 
-## 问题10：循环控制语句的调试技巧
+## 问题88：循环控制语句的调试技巧
 
 ```python
 # 1. 添加调试信息

@@ -1,6 +1,6 @@
 # for循环与while循环
 
-## 问题1：Python中有哪些循环语句？
+## 问题69：Python中有哪些循环语句？
 
 Python中有两种主要的循环语句：
 
@@ -39,7 +39,7 @@ while password != "123456":
 print("密码正确！")
 ```
 
-## 问题2：for循环的常见用法有哪些？
+## 问题70：for循环的常见用法有哪些？
 
 ```python
 # 1. 遍历列表
@@ -69,7 +69,7 @@ for name, age in zip(names, ages):
     print(f"{name}: {age}岁")
 ```
 
-## 问题3：while循环的常见用法有哪些？
+## 问题71：while循环的常见用法有哪些？
 
 ```python
 # 1. 计数器循环
@@ -106,7 +106,7 @@ while index < len(lines):
     index += 1
 ```
 
-## 问题4：循环中的break和continue如何使用？
+## 问题72：循环中的break和continue如何使用？
 
 ```python
 # break - 跳出整个循环
@@ -131,7 +131,7 @@ for num in numbers:
     print(num)   # 1, 3, 5, 7
 ```
 
-## 问题5：嵌套循环如何使用？
+## 问题73：嵌套循环如何使用？
 
 ```python
 # 基本嵌套循环
@@ -158,7 +158,7 @@ for row in matrix:
     print()
 ```
 
-## 问题6：循环的else子句如何使用？
+## 问题74：循环的else子句如何使用？
 
 ```python
 # for循环的else子句
@@ -196,7 +196,7 @@ find_element([1, 2, 3, 4, 5], 3)  # 找到元素 3，位置: 2
 find_element([1, 2, 3, 4, 5], 6)  # 未找到元素 6
 ```
 
-## 问题7：循环的性能优化技巧有哪些？
+## 问题75：循环的性能优化技巧有哪些？
 
 ```python
 # 1. 使用列表推导式替代简单循环
@@ -237,7 +237,7 @@ for name, age in zip(names, ages):
     print(f"{name}: {age}岁")
 ```
 
-## 问题8：循环的实际应用场景有哪些？
+## 问题76：循环的实际应用场景有哪些？
 
 ```python
 # 1. 数据处理
@@ -312,7 +312,7 @@ def analyze_data(data):
     return stats
 ```
 
-## 问题9：如何避免常见的循环错误？
+## 问题77：如何避免常见的循环错误？
 
 ```python
 # 1. 避免在循环中修改列表
@@ -361,7 +361,7 @@ for item in data:
     print(item)
 ```
 
-## 问题10：循环的最佳实践
+## 问题78：循环的最佳实践
 
 ```python
 # 1. 使用描述性的变量名
