@@ -14,8 +14,8 @@ nav:
       - 问题3：如何管理虚拟环境？: chapter1_basics/1_environment.md#虚拟环境
     - 基本语法、注释与变量:
       - 问题4：Python的基本语法规则？: chapter1_basics/2_syntax.md
-      - 问题5：如何写注释？: chapter1_basics/2_syntax.md#注释
-      - 问题6：变量命名规则？: chapter1_basics/2_syntax.md#变量
+      - 问题5：如何写注释？: chapter1_basics/2_syntax.md#问题5python中的注释和文档字符串如何使用
+      - 问题6：变量命名规则？: chapter1_basics/2_syntax.md#问题6python中的标识符命名规则是什么
     - 基本数据类型:
       - 问题7：Python有哪些基本数据类型？: chapter1_basics/3_data_types.md
       - 问题8：字符串如何操作？: chapter1_basics/3_data_types.md#字符串
