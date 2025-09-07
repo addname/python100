@@ -140,14 +140,12 @@ theme:
   language: "zh"
   features:
     - navigation.sections
-    - navigation.expand
     - navigation.path
     - search.highlight
     - search.share
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
-    - toc.integrate
     - toc.follow
 
 markdown_extensions:
